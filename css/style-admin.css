@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    width: 75%;
+}
+.page-top {
+    display: flex
+;
+}
+.page-menu {
+    flex: 1;
+}
+.page-conten {
+    flex: 6;
+    background-color: #f6f6f6;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    padding-left: 0;
+}
+.page-menu ul li{
+    list-style-type: none;
+    padding: 17px 0;
+}
+.menu-item:hover{
+    background-color: #7cc8f8;
+    color: white;
+}
+.menu-title {
+    font-size: 17px;
+    font-weight: 800;
+    color: black;
+}
+.icon-menu{
+    padding: 7px ;
+    color: black;
+}
+
+/* --------------------------------students----------------- */
+table {
+    width: 100%; /* Chiều rộng bảng */
+    border-collapse: collapse; /* Gộp các đường viền */
+}
+th, td {
+    border: 1px solid black; /* Đường viền của ô */
+    padding: 8px; /* Khoảng cách nội dung và viền */
+    text-align: center; /* Canh giữa nội dung */
+}
+th {
+    background-color: #f2f2f2; /* Màu nền cho tiêu đề */
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Màu nền cho hàng chẵn */
+}
+tr:hover {
+    background-color: #d1e7dd; /* Hiệu ứng hover */
+}
